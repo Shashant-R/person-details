@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/person-details/static/css/main.1883a2ec.css",
+    "main.js": "/person-details/static/js/main.71448996.js",
+    "static/js/787.1805b3d9.chunk.js": "/person-details/static/js/787.1805b3d9.chunk.js",
+    "static/media/Roboto-Regular.ttf": "/person-details/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/person-details/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "index.html": "/person-details/index.html",
+    "main.1883a2ec.css.map": "/person-details/static/css/main.1883a2ec.css.map",
+    "main.71448996.js.map": "/person-details/static/js/main.71448996.js.map",
+    "787.1805b3d9.chunk.js.map": "/person-details/static/js/787.1805b3d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1883a2ec.css",
+    "static/js/main.71448996.js"
+  ]
+}
