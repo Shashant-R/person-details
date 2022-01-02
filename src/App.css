@@ -1,0 +1,12 @@
+*{
+  background: crimson;
+  background: #F0F0F0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex-box;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  padding: 2%;
+}

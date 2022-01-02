@@ -1,0 +1,70 @@
+@font-face {
+    font-family: RoboBol;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: RoboReg;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+.cards{
+    font-family: RoboReg;
+    font-size: small;
+    background: #ffffff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px 2px 16px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 0px 24px;
+    width: 20vw;
+    height: 20vh;
+}
+.active-card{
+    font-family: RoboReg;
+    font-size: small;
+    background: #A259FF;
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px 2px 16px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 0px 24px;
+    width: 20vw;
+    height: 20vh;
+}
+.active-card p{
+    color: #FFFFFF;
+}
+.cards:hover, .cards:hover p{
+    background: #A259FF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+h5{
+    font-family: RoboBol;
+    font-size: 10;
+}
+p,h5{
+    padding-top: 3%;
+    background: none;
+    margin: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.mail{
+    color: #E16259;
+    font-size: 125%;
+}
+.name{
+    font-size: 150%;
+}
+.gender{
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 110%;
+}

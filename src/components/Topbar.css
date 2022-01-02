@@ -1,0 +1,51 @@
+@font-face {
+    font-family: RoboReg;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: RoboBol;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: RoboReg;
+}
+li{
+    display: inline-block;
+    height: min-content;
+    padding-bottom: 2px;
+    position: relative;
+    margin-left: 10%;
+}
+li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #E16259;
+    transition: width 0.5s ease-out;
+}
+li:hover::before {
+    width: 100%;
+}
+ul{
+    width: 30%;
+}
+.container{
+    display: inline-flex;
+    width: 80vw;
+    justify-content:space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    font-family: RoboBol;
+    padding-top: 0;
+}
+.nav{
+    width: 25vw;
+    display: inline-flex;
+    justify-content: stretch;
+}
